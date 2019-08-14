@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         .setDefaults(NotificationCompat.DEFAULT_ALL)
 //                        .setVibrate(new long[]{0,1000,1000,1000})
 //                        .setLights(Color.RED,1000,1000)
-//                        .setStyle(new NotificationCompat.BigTextStyle().bigText("fefefe"))
-//                        .setStyle(new NotificationCompat.BigPictureStyle().bigPicture(BitmapFactory.decodeResource(getResources(),R.drawable.timg)))
+                        .setStyle(new NotificationCompat.BigTextStyle().bigText("This is content text"))
+                        .setStyle(new NotificationCompat.BigPictureStyle().bigPicture(BitmapFactory.decodeResource(getResources(),R.drawable.timg)))
                         .setPriority(NotificationCompat.PRIORITY_MAX)
                         .build();
                 manager.notify(1,notification);
